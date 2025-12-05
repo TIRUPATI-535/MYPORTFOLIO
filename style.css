@@ -96,9 +96,13 @@ nav {
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid var(--primary);
-    box-shadow: 0 10px 30px rgba(37, 4, 200, 0.3);
-    animation: float 4s ease-in-out infinite;
+
+    box-shadow:
+        0 0 35px rgba(0, 247, 255, 0.9),   /* neon cyan */
+        0 0 70px rgba(255, 77, 255, 0.8),  /* neon pink/magenta */
+        0 0 120px rgba(138, 56, 255, 0.7); /* deep purple */;
 }
+
 
 .profile-pic img {
     width: 100%;
