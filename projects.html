@@ -41,6 +41,7 @@
             --text-light: #aaa;
             --section-bg: #1e1e1e;
             --card-bg: #252525;
+          
         }
 
         /* ===== Header ===== */
@@ -141,6 +142,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 2.5rem;
+            
         }
 
         .project-card {
@@ -149,6 +151,7 @@
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
+            
         }
 
         .project-card:hover {
@@ -247,6 +250,7 @@
         .project-card {
             animation: fadeIn 0.6s ease-out forwards;
             opacity: 0;
+            
         }
 
         .project-card:nth-child(1) { animation-delay: 0.1s; }
@@ -258,6 +262,7 @@
         @media (max-width: 1024px) {
             .projects-container {
                 padding: 5%;
+                
             }
         }
 
@@ -278,6 +283,7 @@
             
             .projects-grid {
                 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                
             }
         }
 
@@ -288,6 +294,7 @@
             
             .projects-grid {
                 grid-template-columns: 1fr;
+                
             }
             
             .project-links {
@@ -327,26 +334,70 @@
             <!-- Project 1 -->
             <div class="project-card">
                 <div class="project-image">
-                    <img src="fitness logo1.jpeg" alt="GYM TRAINNER WEB">
+                    <img src="Dashboard.png" alt="GYM TRAINNER WEB">
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title"> GYM TRAINNER WEB </h3>
+                    <h3 class="project-title"> ONLINE SHOPPING Dashboard </h3>
                     <p class="project-description">
-                        A comprehensive platform that helps to provide the service or information about the workout as well as nuetrition plan , and guiding to the people or trainner  to  how to do workout and how to do excercise in correct way.
-                        In this project we have provided comprehensive vital information releted to the fitness ,diet plan.and how we can make fitness in good way or simple way.
-                    </p>
+                      <p> Developed an interactive Online Shopping Dashboard using Microsoft Excel to analyze customer orders and sales performance. The dashboard provides insights into order amount, order status, sales by state, age group, gender, and sales channel.</p>
+                      <p> Implemented Pivot Tables, Pivot Charts, slicers, and filters to enable dynamic data exploration by date and month. This project demonstrates strong skills in data analysis, visualization, and dashboard design for business decision-making.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag"> MS EXCEL </span>
                     </div>
                     <div class="project-links">
-                        <a href="file:///C:/Users/Tirupati%20Kundagir/Documents/CPE%20-%20Copy/index.html" class="project-link live-link" target="_blank">
+                        <a href="" class="project-link live-link" target="_blank">
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
-                        <a href="https://github.com/TIRUPATI-535/GYM-TRAINNER-WEB.git" class="project-link code-link" target="_blank">
+                        <a href="" class="project-link code-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+       
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Bank.png" alt="GYM TRAINNER WEB">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title"> Banking Transaction Analysis using SQL </h3>
+                    <p class="project-description">
+                      <p>This project focuses on analyzing banking customer and transaction data using SQL. The dataset is stored in two relational tables: Customers and Transactions. The Customers table contains customer details such as name, email, and account number </p>              
+                    <p>  Using SQL queries, the project performs data retrieval, filtering, aggregation, and joins to analyze customer-wise transaction behavior. Key insights such as total credit and debit amounts, high-value transactions, and transaction ranges are extracted using SQL concepts like JOIN, WHERE, GROUP BY, CASE, and aggregate functions.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"> MS SQL SERVER </span>
+                    </div>
+                    <div class="project-links">
+                        <a href="" class="project-link live-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="" class="project-link code-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="project-card">
+                <div class="project-image">
+                    <img src="Employee.png" alt="GYM TRAINNER WEB">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title"> Employee Management System (Python Project) </h3>
+                    <p class="project-description">
+                    <p>Developed a Python-based Employee Management System to efficiently manage and analyze employee records. The project uses Pandas and NumPy for data handling, cleaning, and manipulation, enabling operations such as adding, updating, deleting, and searching employee details.</p>
+                    <p> Matplotlib was used to visualize employee data through charts and graphs, helping to analyze salary distribution, department-wise employee count, and other key metrics.</p>     
+                    <div class="project-tech">
+                        <span class="tech-tag"> MS SQL SERVER </span>
+                    </div>
+                    <div class="project-links">
+                        <a href="" class="project-link live-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="" class="project-link code-link" target="_blank">
                             <i class="fab fa-github"></i> View Code
                         </a>
                     </div>
@@ -354,9 +405,12 @@
             </div>
             
         </div>
+
     </main>
 
 
+
+    
     
         <script src="script.js"></script>
     <script src="theme.js"></script>
